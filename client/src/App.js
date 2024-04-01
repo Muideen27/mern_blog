@@ -8,14 +8,17 @@ function App() {
     <Routes>
       <Route index element={
             <main>
-            <Header /> 
-            <Post />
-            <Post />
-            <Post />
+              <Header /> 
+              <Post />
+              <Post />
+              <Post />
           </main>
       } />
        <Route path={'/login'} element={
-        <div>login page</div>
+            <main>
+              <Header /> 
+              <div>Login Page</div>
+          </main>
        } />
     </Routes>
   );
