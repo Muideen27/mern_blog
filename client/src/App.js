@@ -16,7 +16,11 @@ function App() {
         </div>
         <div className="texts">
           <h2>Creating a Deepfake Video - The Trailer</h2>
-          <p>Explore deepfake tech powered by AI. Craft unique content responsibly using free AI tools</p>
+          <p className="info">
+            <a className="author">Ilori Muideen</a>
+            <time>2024-04-01 15:42</time>
+          </p>
+          <p className="summary">Explore deepfake tech powered by AI. Craft unique content responsibly using free AI tools</p>
         </div>
       </div>
       <div className="post">
@@ -25,7 +29,11 @@ function App() {
         </div>
         <div className="texts">
           <h2>Creating a Deepfake Video - The Trailer</h2>
-          <p>Explore deepfake tech powered by AI. Craft unique content responsibly using free AI tools</p>
+          <p className="info">
+            <a className="author">Ilori Muideen</a>
+            <time>2024-04-01 15:42</time>
+          </p>
+          <p className="summary">Explore deepfake tech powered by AI. Craft unique content responsibly using free AI tools</p>
         </div>
       </div>
       <div className="post">
@@ -34,7 +42,11 @@ function App() {
         </div>
         <div className="texts">
           <h2>Creating a Deepfake Video - The Trailer</h2>
-          <p>Explore deepfake tech powered by AI. Craft unique content responsibly using free AI tools</p>
+          <p className="info">
+            <a className="author">Ilori Muideen</a>
+            <time>2024-04-01 15:42</time>
+          </p>
+          <p className="summary">Explore deepfake tech powered by AI. Craft unique content responsibly using free AI tools</p>
         </div>
       </div>
     </main>
