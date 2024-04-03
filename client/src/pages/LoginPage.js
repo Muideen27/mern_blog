@@ -4,10 +4,10 @@ export default function LoginPage() {
     const [username, setUsername] = useState('');
     const [password, setPassowrd] = useState('');
 
-    async function login(e) {
+    async function login(ev) {
         ev.preventDefault();
        await fetch('http://localhost:4000/login', {
-            method: 'GET',
+            method: 'POST',
             body: JSON.stringify({username, password}),
             headers: {'Content-Type':'application/json'},
         })
