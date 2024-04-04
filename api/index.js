@@ -47,7 +47,7 @@ app.post('/login', async (req,res) => {
 });
 
 app.get('/profile', (req, res) =>{
-    res.json(req, cookies);
+    res.json(req.cookies);
 })
 
 app.listen(4000);
