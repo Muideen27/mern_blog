@@ -10,7 +10,7 @@ const salt = bcrypt.genSaltSync(10);
 
 const secret = 'ahovnaoiavnaorvanvioaj';
 
-app.use(cors());
+app.use(cors({credentials:true, origin:'http://localhost:3000'}));
 app.use(express.json());
 
 mongoose.connect('mongodb+srv://blog:tJ8q0dvdXBBTVyiY@blog.mdslktc.mongodb.net/?retryWrites=true&w=majority&appName=blog');
