@@ -1,4 +1,3 @@
-import { response } from "express";
 import { useEffect, useState } from "react";
 import {Link} from "react-router-dom";
 
@@ -20,7 +19,6 @@ export default function Header() {
           {username && (
             <>
               <Link to="/create">Create new post</Link>
-              <a>Logout</a>
             </>
           )}
           {!username && (
