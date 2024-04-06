@@ -5,7 +5,6 @@ const User = require('./models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const cookieParser = require('cookie-parser');
-const { parse } = require('path');
 const app = express();
 
 const salt = bcrypt.genSaltSync(10);
