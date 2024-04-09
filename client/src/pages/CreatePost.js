@@ -47,8 +47,7 @@ export default function CreatePost() {
                     placeholder={"Summary"} 
                     value={summary}
                     onChange={ev => setSummary(ev.target.value)}/>
-                <input type="file" 
-                    value={files}
+                <input type="file"
                     onChange={ev => setFiles(ev.target.files)}/>
                 <ReactQuill 
                     value={content} 
