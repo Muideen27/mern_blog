@@ -25,10 +25,20 @@ export default function CreatePost() {
     return (
         <div>
             <form action="">
-                <input type="title" placeholder={"Title"} />
-                <input type="summary" placeholder={"Summary"} />
+                <input type="title" 
+                    placeholder={"Title"} 
+                    value={title}
+                    onChange={ev => setTitle(ev.target.value)}/>
+                <input type="summary" 
+                    placeholder={"Summary"} 
+                    value={summary}
+                    onChange={ev => setSummary(ev.target.value)}/>
                 <input type="file" />
-                <ReactQuill value={content} modules={modules} formats={formats}/>
+                <ReactQuill 
+                    value={content} 
+                    onChange={newValue => setContent(newValue)}
+                    modules={modules} 
+                    formats={formats}/>
                 <button style={{marginTop: "5px"}}>Create Post</button>
             </form>
         </div>
