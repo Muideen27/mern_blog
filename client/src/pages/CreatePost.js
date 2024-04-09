@@ -1,7 +1,10 @@
 export default function CreatePost() {
     return (
         <div>
-            here you create your new post
+            <form action="">
+                <input type="title" placeholder={"Title"} />
+                
+            </form>
         </div>
     )
 }
