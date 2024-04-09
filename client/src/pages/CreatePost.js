@@ -28,7 +28,7 @@ export default function CreatePost() {
         data.set('title', title);
         data.set('summary', summary);
         data.set('content', content);
-        // data.set('file')
+        data.set('file', files[0])
         ev.preventDefault();
         console.log(files);
         // fetch('http:localhost:4000/post', {
