@@ -31,10 +31,10 @@ export default function CreatePost() {
         data.set('file', files[0])
         ev.preventDefault();
         console.log(files);
-        // fetch('http:localhost:4000/post', {
-        //     method: 'POST',
-        //     body: ,
-        // })
+        fetch('http:localhost:4000/post', {
+            method: 'POST', 
+            body: data,
+        })
     }
     return (
         <div>
