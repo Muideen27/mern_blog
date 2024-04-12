@@ -35,6 +35,7 @@ export default function CreatePost() {
             method: 'POST', 
             body: data,
         })
+        console.log(await response.json());
     }
     return (
         <div>
